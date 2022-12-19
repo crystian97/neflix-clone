@@ -9,6 +9,7 @@ app.use(express.static(initialPath))
 app.get("/",(req,res)=>{
     res.sendFile(path.join(initialPath,"index.html"))
 })
-app.listen(3333,()=>{
-    console.log("server start up")
+const port = 3333
+app.listen(port,()=>{
+    console.log(`server start up on port ${port}`)
 })
