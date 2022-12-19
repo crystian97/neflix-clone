@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/crystian97/neflix-clone/issues"
   },
-  "homepage": "https://github.com/crystian97/neflix-clone#readme"
+  "homepage": "https://github.com/crystian97/neflix-clone#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
