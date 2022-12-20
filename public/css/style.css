@@ -86,6 +86,9 @@ body{
     scroll-behavior: smooth;
     display: flex;
 }
+.movie-container::-webkit-scrollbar{
+    display: none;
+}
 .movie-category::-webkit-scrollbar{
     display: none;
 }
