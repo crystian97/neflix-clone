@@ -69,6 +69,7 @@ body{
     height:250px;
     margin-top:40px;
     position:relative;
+    
 }
 .movie-category{
     font-size:20px;
@@ -83,6 +84,7 @@ body{
     /* overflow-x: auto;
     overflow-y: hidden; */
     scroll-behavior: smooth;
+    display: flex;
 }
 .movie-category::-webkit-scrollbar{
     display: none;
@@ -95,7 +97,6 @@ body{
     margin-right: 10px;
     cursor: pointer;
     position: relative;
-    border:1px solid red;
 }
 .movie img{
     width: 100%;
